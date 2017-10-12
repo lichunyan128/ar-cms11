@@ -1,0 +1,362 @@
+.menuList{
+	background: #fff;
+	padding-bottom: .98rem;
+}
+.menuContent{
+	background: #ededed;
+}
+.seekBox{
+	background: #fff;
+	padding: .74rem .3rem 1.21rem .3rem;
+}
+.addClass{
+	float: right;
+	position: relative;
+	top: .65rem;
+}
+.addClass em{
+	display: inline-block;
+	font-size: .5rem;
+	position: absolute;
+	top: -0.05rem;
+	right: 1.5rem;
+}
+.addClass i{
+	display: inline-block;
+	font-size: 0.3rem;
+}
+.MenuList{
+	margin-top: 0.1rem;
+	background: #fff;
+}
+.MenuList li{
+	height: 1.08rem;
+	line-height: 1.08rem;
+	font-size: 0.3rem;
+	padding: 0 .3rem;
+	display: flex;
+}
+.MenuList li .mainCourse{
+	width: 50%;
+}
+.MenuList li .addCourse{
+	width: 45%;
+	text-align: right;
+}
+.MenuList li .icon{
+	width:.25rem;
+	height:.25rem;
+	border-left:2px solid #e1e1e1 ;
+	border-top:2px solid #e1e1e1 ;
+	transform:rotate(135deg);
+	margin-left: .23rem;
+	margin-top: .4rem;
+}
+.fengex{
+	font-size: .5rem;
+}
+
+/*searchDish*/
+.searchDish_seekBox{
+	background: #fff;
+	padding: .74rem .3rem .25rem .3rem;
+}
+.searchDish_list{
+	background: #fff;
+}
+.searchDish_list li{
+	height: 1.08rem;
+	line-height: 1.08rem;
+	font-size: .3rem;
+	color: #4d4d4d;
+	padding: 0 .3rem;
+}
+.searchDish_list .icons{
+	width:.25rem;
+	height:.25rem;
+	border-left:2px solid #e1e1e1 ;
+	border-top:2px solid #e1e1e1 ;
+	transform:rotate(135deg);
+	margin-left: 6.5rem;
+	margin-top: -.65rem;
+}
+/*dishPreview*/
+.dishDetails{
+	color: #4d4d4d;
+	background: #fff;
+	padding-bottom: .98rem;
+}
+.dishDetails ul li{
+	border: none;
+}
+.dishDetails_greens{
+	background: #fff;
+	padding: .3rem;
+	display: flex;
+}
+.dishDetails_greens li{
+	height: 1.2rem;
+	line-height: 1.2rem;
+}
+.greensPic{
+	width: 1.22rem;
+	height: 1.2rem;
+}
+.greensPic img{
+	width: 100%;
+}
+.greensName{
+	width: 2.7rem;
+	font-size: .3rem;
+	margin-left: .38rem;
+}
+.greensPrice{
+	width: 2.7rem;
+	text-align: right;
+	font-size: .3rem;
+}
+.greensDescribe,.soldOut,.curbSales{
+	margin-top: .1rem;
+	background: #fff;
+	padding-bottom: .33rem;
+}
+.greensDescribe li,.soldOut li,.curbSales li{
+	padding:0 .3rem;
+}
+.DescribeTitle{
+	height:.8rem;
+	line-height: .8rem;
+	color: #a8a8a8;
+	font-size:.28rem;
+}
+.DescribeText1{
+	margin-top: .33rem;
+}
+.DescribeText1 span{
+	display: inline-block;
+	height: .32rem;
+	line-height: .32rem;
+	border-right: 1px solid;
+	padding-right: .1rem;
+}
+.DescribeText1 span:last-child{
+	border-right:none;
+}
+.DescribeText2{
+	font-size: .3rem;
+	margin-top: .3rem;
+	line-height: .5rem;
+}
+.curbSales{
+	border-bottom: 1px solid #e1e1e1;
+}
+.compile,.sort,.finish{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	font-size: .34rem;
+}
+/*dishList*/
+.addDishBox{
+	height: .95rem;
+	background: #fff;
+	padding: .45rem .3rem .22rem .3rem;
+}
+.addDish{
+	width:1.8rem;
+	font-size: .3rem;
+	position: relative;
+	left: 5rem;
+}
+.addDish em{
+	display: inline-block;
+	font-size: .5rem;
+	position: absolute;
+	top: -0.05rem;
+}
+.addDish i{
+	display: inline-block;
+	font-size: 0.3rem;
+	margin-left: .5rem;
+}
+.listShow{
+	background: #fff;
+	margin-top: .1rem;
+}
+.listShow ul{
+	padding: .3rem .3rem;
+}
+.listShow ul li{
+	border: none;
+}
+.dishName{
+	margin-bottom: .22rem;
+	font-size:.3rem;
+}
+.content{
+	display: flex;
+}
+.content .price{
+	width: 2.2rem;
+	height: .66rem;
+	line-height: .66rem;
+	font-size:.3rem;
+}
+.content div:not(:first-child){
+	border: 1px solid;
+	padding: .1rem .15rem;
+	font-size:.26rem;
+	margin-left: .17rem;
+}
+.content div:nth-child(n+3){
+	border: 1px solid #e1e1e1;
+}
+.content .vendibility{
+	color: #e43730;
+}
+.content .sellOut{
+	color: #febe3a;
+}
+
+/*complieDish*/
+.complieDish{
+	background: #fff;
+	padding-bottom: .98rem;
+}
+.complieTop{
+	background: #fff;
+}
+.complieTop li{
+	padding: 0 .3rem;
+}
+.complieTop .addPic{
+	height: 1.65rem;
+	line-height: 1.65rem;
+	font-size:.3rem;
+}
+.complieTop .addPic input{
+	position: absolute;
+	top: .23rem;
+	left: 6rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	border: 1px solid;
+}
+.complieTop li:not(:first-child){
+	height: 1.08rem;
+	line-height: 1.08rem;
+	font-size:.3rem;
+}
+.complieTop li:last-child{
+	border-bottom:none;
+}
+.complieTop li:not(:first-child) input{
+	height: .9rem;
+	width: 7rem;
+	border: none;
+}
+.compileContent{
+	background: #fff;
+}
+.compileContent li{
+	padding: .3rem;
+	margin-top: .1rem;
+}
+.compileContent li:last-child{
+	border-bottom:none;
+}
+.compileContent li div{
+	display: inline-block;
+}
+.compileContent li div:first-child{
+	width: 4.23rem;
+}
+.compileContent li input[type="radio"]{
+	width: .42rem;
+	height: .42rem;
+	background: none;
+	vertical-align: middle;
+	margin-right: .19rem;
+	margin-top: -.01rem;
+}
+.compileContent li div:nth-child(2){
+	margin-right: .45rem;
+}
+.compileContent li textarea{
+	width: 6.88rem;
+	height: 3.97rem;
+	background: #f3f3f3;
+	border: none;
+	font-size: .28rem;
+	padding: .3rem;
+	line-height: .43rem;
+}
+.compileContent .sellOut{
+	height: .8rem;
+	line-height: .8rem;
+	padding-top: 0rem;
+}
+/*弹窗*/
+.popUp-cover{
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.popUp-content{
+	width: 80%;
+	height:21.8%;
+	position: absolute;
+	top:50%;
+	left:50%;;
+	margin-left:-40%;
+	margin-top:-25%;
+	background:#fff;
+	z-index: 10;
+	border-radius:0.25rem;
+}
+.popUp-content input{
+	width: 5.01rem;
+	height: .74rem;
+	border-radius:1rem ;
+	background: #f2f2f0;
+	border: none;
+	padding: .22rem .33rem;
+	color: #383838;
+	margin-top: .58rem;
+	margin-left: .4rem;
+	font-size: .32rem;
+}	
+.chooseBtn{
+	height: .96rem;
+	font-size: .32rem;
+	margin-top: .65rem;
+}
+.chooseBtn div{
+	float: left;
+	width: 50%;
+	line-height:.96rem;
+	color: #fff;
+	text-align: center;
+	font-size: .32rem;
+}
+.chooseBtn div:first-child{
+	border-bottom-left-radius:0.25rem;
+}
+.chooseBtn div:last-child{
+	border-bottom-right-radius:0.25rem;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,220 @@
+html{
+	background:#f3f3f3;
+}
+.orderlist{
+	width: 100%;
+	position: absolute;
+	top: .88rem;
+}
+.banner{
+	height:0.8rem;
+	border-bottom: 1px solid #e1e1e1;
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	position: fixed;
+	z-index: 10;
+}
+.banner li{
+	width: 3.75rem;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	margin: auto;
+	border: none;
+}      
+.chooseIco{
+	display: inline-block;
+	width:.15rem;
+	height:.15rem;
+	border-left:1px solid #e1e1e1 ;
+	border-top:1px solid #e1e1e1 ;
+	vertical-align: middle;
+	margin-left:0.17rem;
+}
+.byChoose{
+	transform:rotate(-135deg);
+}
+.banner li:first-child{
+	border-right: 1px solid #e1e1e1;
+}
+.chooseIcon{
+	position: absolute;top: 0.7rem;
+	width:.15rem;
+	height:.15rem;
+	transform:rotate(45deg);
+	vertical-align: middle;
+	margin-left:0.17rem;
+}
+.chooseLeft{
+	left: 1.6rem;
+	border-left:1px solid #e1e1e1 ;
+	border-top:1px solid #e1e1e1 ;
+}
+.chooseRight{
+	left: 5.2rem;
+	border-left:1px solid #e1e1e1 ;
+	border-top:1px solid #e1e1e1 ;
+}
+.chooseRight
+.orderlist{
+	background:#e5e5e5;
+}
+.listBox{
+	width:100%;
+	background:#f3f3f3;
+	margin-bottom:1rem;
+	margin-top: 0.8rem;
+}
+.innerBox{
+	width: 100%;
+	margin-bottom:0.1rem;
+	background:#fff;
+}
+.innerBox li{
+	width: 100%;
+	margin:0 auto;
+	padding:0 0.3rem;
+}
+.listTop{
+	height:0.8rem;
+	line-height:0.8rem;
+	border-bottom:1px solid #efefef;
+	font-size:0.26rem;
+	font-weight:500;
+	color: #4d4d4d;
+}
+.innerBox .listUserInfo{
+	border-bottom:1px solid #efefef;
+	position: relative;
+}
+.listUserInfo div{
+	margin-top:0.28rem;
+}
+.headPic{
+	width: 0.68rem;
+	height:0.68rem;
+	border-radius: 1rem;
+	background:#56678A;
+	overflow: hidden;
+}
+.headPic img{
+	width: 100%;
+}
+.userName{
+	font-size:0.28rem;
+	font-weight: 600;
+	margin-left:0.17rem;
+	color: #383838;
+	position: absolute;
+	top:-0.16rem;
+	left:1.15rem;
+}
+.listUserInfo .basicInformation{
+	margin: 0.2rem 0rem 0.29rem 1.03rem;
+}
+.basicInformation p{
+	color: #4d4d4d;
+	font-size:0.24rem;
+}
+.basicInformation p:last-child{
+	margin-top: 0.2rem;
+}
+.peopleNum{
+	margin-left: 0.89rem;
+}
+.listPrice{
+	text-align:center;
+	position: absolute;
+	top:0.23rem;
+	right:.3rem;
+}
+.realPrice{
+	font-size:0.24rem;
+	font-weight: 600;
+}
+.priceFontColor{
+	font-size:0.24rem;
+	color:#b3b3b3;
+	margin-top: .41rem;
+	text-decoration:line-through;
+	}
+.listFoot{
+	height:0.8rem;
+	line-height:0.8rem;
+	font-size:0.26rem;
+}
+.listFoot p{
+	font-weight: 500;
+	color: #4d4d4d;
+}
+
+.listFoot .time{
+	display:inline-block ;
+	margin-left:0.05rem;
+}
+.totalMoney{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	bottom:0;
+	position: fixed;
+	border-top:1px solid #e1e1e1;
+}
+.totalMoney li{
+	width: 50%;
+	text-align: center;
+	font-size: 0.28rem;
+}
+.paging{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin:0.18rem auto;
+	font-size:0.16rem;
+}
+.paging li{
+	border: none;
+}
+.popListBox{
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 15;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height:86.5%;
+}
+.popList{
+	width: 100%;
+	background:#fff;
+}
+.popList li{
+	height:0.8rem;
+	line-height:0.8rem;
+	border-bottom:1px solid #e1e1e1;
+	text-align: center;
+	font-size: 0.26rem;
+}
+.popList li.active{
+	color: #febe3a;
+	border-bottom: 1px solid #febe3a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

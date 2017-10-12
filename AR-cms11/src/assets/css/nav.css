@@ -1,0 +1,104 @@
+.Nav{
+	margin-top: 1.5rem;
+}
+.navTop{
+	background:#fff;
+}
+.navTopText{
+	height:0.76rem;
+	width:6.9rem;
+	margin:0.78rem auto;
+}
+.verifiyCode{
+	height: 0.76rem;
+	width:5.34rem;
+	font-size:0.28rem;
+	padding-left:0.37rem;
+	background:#f2f2f0;
+	border:none;
+	border-top-left-radius:0.5rem;
+	border-bottom-left-radius:0.5rem;
+	color:#a8a8a8;
+}
+.CodeBtn{
+	float:right;
+	width:1.56rem;
+	height: 0.76rem;
+	font-size:0.32rem;
+	text-align:center;
+	line-height:0.76rem;
+	color:#fff;
+	border-top-right-radius:0.5rem;
+	border-bottom-right-radius:0.5rem;
+}
+.shop{
+	width:6.93rem;
+	margin:0.36rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+.shop p{
+	font-size:0.28rem;
+}
+.NavList{
+	width:95%;
+	margin:0 auto;
+}
+.NavList li{
+	margin: 0 auto;
+	padding: .3rem .08rem;
+	font-size:0.28rem;
+}
+.NavList li a{
+	display:inline-block;
+	width:95%;
+	color:#4d4d4d;
+}
+.NavList .listSelectStore{
+	width: 4rem;
+    display: inline-block;
+    text-align: right;
+    margin-left: 1rem;
+}
+
+/*弹窗*/
+.popUp-cover{
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.popUp-content{
+	width: 60%;
+	height:16%;
+	position: absolute;
+	top:50%;
+	left:50%;;
+	margin-left:-30%;
+	margin-top:-25%;
+	background:#fff;
+	z-index: 10;
+	border-radius:0.25rem;
+}
+.popUp-text{
+	font-size: 0.3rem;
+	font-weight: 600;
+	height:1.3rem;
+	line-height: 1.3rem;
+	text-align: center;
+	border-bottom:1px solid #393939;
+	color: #393939;
+}
+input{
+	height: 0.7rem;
+	line-height: .75rem;
+	width:4.3rem;
+	border:none;
+	background:none;
+	font-size:.3rem;
+	font-weight: 600;
+	color:#109eb8;
+}	
