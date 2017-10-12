@@ -1,0 +1,54 @@
+<template>
+ <div class="color-list">
+      <div 
+          class="color-item" 
+          v-for="color in colors" v-dragging="{ item: color, list: colors, group: 'color' }"
+          :key="color.text"
+      >{{color.text}}</div>
+      
+      <div class="btn" @click='add' >
+      	输出
+      </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+        colors: [{
+            text: "Aquamarine"
+        }, {
+            text: "Hotpink"
+        }, {
+            text: "Gold"
+        }, {
+            text: "Crimson"
+        }, {
+            text: "Blueviolet"
+        }, {
+            text: "Lightblue"
+        }, {
+            text: "Cornflowerblue"
+        }, {
+            text: "Skyblue"
+        }, {
+            text: "Burlywood"
+        }]
+    }
+  },
+  methods:{
+  	 add(){
+  	 	console.log(this.colors[0].text)
+  	 }
+  }
+}
+</script>
+
+<style>
+.color-list div{
+	width: 100%;
+	height: 50px;
+	border: 1px solid;
+}
+</style>
